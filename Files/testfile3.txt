@@ -1,4 +1,10 @@
-This is a text file with
+THIS IS A TEXT FILE WITH
+RANDOM WORDS USED IN PROGRAMMING.
+OTHER THINGS TOO
+MALAYALAM, 121This is a text file with
 random words used in programming.
 Other Things too
-malayalam, 121
+malayalam 121This is a text file with
+random words used in programming.
+Other Things too
+malayalam 121

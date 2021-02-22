@@ -2,7 +2,6 @@ file = open("/Ghosty's Files/Programming/Python/Files/testfile.txt","r")
 palinWordList = []
 for line in file:
     line.strip("\n")
-    line.strip(',')
     fileList = line.split()
     print(fileList)
     for iter in fileList:

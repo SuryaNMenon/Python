@@ -1,0 +1,2 @@
+with open("/Ghosty's Files/Programming/Python/Files/testfile.txt", "r") as file:
+    print(f"File attributes are:\nDirectory: {file.name}\nMode: {file.mode}\nEncoding: {file.encoding}\nStatus: {file.closed}")
