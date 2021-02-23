@@ -9,8 +9,8 @@ for rows in range(rowval):
     print(f"Enter elements of row {rows+1}")
     for columns in range(columnval): 
         templist.append(input()) 
-        finallist.append(templist) 
-        templist = [] 
+    finallist.append(templist) 
+    templist = [] 
 print("The inputted matrix is: ") 
 for rows in finallist: 
     print(rows)
