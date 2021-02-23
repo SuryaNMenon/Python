@@ -1,2 +1,0 @@
-
-    resdict[keys] = values;
