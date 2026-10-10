@@ -9,8 +9,12 @@ import sqlite3
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 print("--- Problem 1 ---")
-connection = sqlite3.connect('dogsdb.sqlite3')
-cursor = connection.cursor()
+try:
+    connection = sqlite3.connect('dogsdb.sqlite3')
+    cursor = connection.cursor()
+except sqlite3.Error as error:
+    print("Could not connect to dogsdb.sqlite3:", error)
+    raise SystemExit(1)
 query = 'select name from sqlite_master where type="table"'
 cursor.execute(query)
 table = cursor.fetchall()
